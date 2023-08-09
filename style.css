@@ -1,4 +1,8 @@
 
+* {
+    box-sizing: border-box;
+}
+
 h1 {
     color: #4682B4;
     text-align: center;
@@ -12,4 +16,27 @@ h2, h3 {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.header-links-container a {
+    /* margin: 0 92px; */
+    /* text-align: center; */
+    border: 20px;
+    /*display: inline;*/
+    padding: 2px;
+    list-style: none;
+    font-weight: bold;
+    color: #0047AB;
+}
+
+.header-links-container{
+    border: 2px dotted;
+    border-color: #0047AB;
+    padding: 5px;
+    background-color: lightblue;
+    display: flex;
+    /* justify-content: center; */
+    justify-content: space-evenly;
+    border-radius: 5px;
+
 }
